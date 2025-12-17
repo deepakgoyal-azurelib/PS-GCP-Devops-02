@@ -1,0 +1,12 @@
+apiVersion: storage.cnrm.cloud.google.com/v1beta1
+kind: StorageBucket
+metadata:
+  # Names must be globally unique in all of Google Cloud
+  # Suggestion: Use your-name-gitops-demo
+  name: akshay-unique-demo-bucket-2025
+  namespace: config-control 
+spec:
+  location: asia-southeast1
+  storageClass: STANDARD
+  # This setting ensures the bucket is deleted if you delete this YAML
+  resourceID: akshay-unique-demo-bucket-2025
