@@ -10,3 +10,4 @@ spec:
   storageClass: STANDARD
   # This setting ensures the bucket is deleted if you delete this YAML
   resourceID: akshay-unique-demo-bucket-2025
+  uniformBucketLevelAccess: true
