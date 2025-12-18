@@ -1,11 +1,11 @@
 apiVersion: storage.cnrm.cloud.google.com/v1beta1
 kind: StorageBucket
 metadata:
-  name: akshay-unique-demo-bucket-2025
+  name: akshay-unique-demo-bucket-2025-1
   namespace: config-control 
 spec:
   location: asia-southeast1
   storageClass: STANDARD
-  resourceID: akshay-unique-demo-bucket-2025
+  resourceID: akshay-unique-demo-bucket-2025-1
   # ADD THESE LINES BELOW:
   uniformBucketLevelAccess: true
